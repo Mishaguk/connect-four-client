@@ -81,7 +81,7 @@ export function useMultiplayer(state, dispatch, username) {
         dispatch({ type: "SET_BOARD", payload: game.board });
         dispatch({ type: "SET_GAME_STATE", payload: game.gameState });
         dispatchMultiplayerGameInfo(game, dispatch);
-      }, 300);
+      }, 2000);
 
       return () => clearInterval(intervalId);
     }
