@@ -1,0 +1,58 @@
+{
+    "language": {
+        "en": "Англійська",
+        "sk": "Словацька",
+        "uk": "Українська"
+    },
+    "options": {
+        "header": "Опції гри",
+        "fieldSize": "Розмір поля",
+        "playWithBot": "Грати з ботом",
+        "difficulty": "Складність",
+        "startGame": "Почати гру",
+        "small": "Малий ",
+        "medium": "Середній",
+        "large": "Великий",
+        "easy": "Легкий",
+        "hard": "Складний"
+    },
+    "gameState": {
+        "waitingForGame": "Чекаємо на гру...",
+        "playing": "Грається",
+        "playerOneWon": "Червоний гравець виграв!",
+        "playerTwoWon": "Жовтий гравець виграв!",
+        "youWon": "Ти виграв!",
+        "botWon": "Бот виграв!",
+        "draw": "Нічия!",
+        "unknownGameState": "Невідома гра"
+    },
+    "board": {
+        "title": "Connect Four",
+        "description": "Натисніть 'Почати гру' щоб почати"
+    },
+    "logout": "Вийти",
+    "tabs": {
+        "scores": "Рейтинг",
+        "comments": "Коментарі",
+        "rating": "Оцінка"
+    },
+    "scores": {
+        "header": "Рейтинг гри",
+        "game": "Гра",
+        "player": "Гравець",
+        "points": "Бали",
+        "date": "Дата",
+        "search": "Пошук..."
+    },
+    "comments": {
+        "header": "Рейтинг гри",
+        "comment": "Ваш коментар:",
+        "placeholder": "Напишіть ваш коментар тут...",
+        "submit": "Відправити коментар"
+    },
+    "gameRating": {
+        "rateGame": "Оцініть гру",
+        "yourRating": "Ваш рейтинг",
+        "averageRating": "Середній рейтинг"
+    }
+}

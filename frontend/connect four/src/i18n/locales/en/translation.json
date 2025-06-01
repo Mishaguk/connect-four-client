@@ -1,0 +1,65 @@
+{
+    "language": {
+        "en": "English",
+        "sk": "Slovak",
+        "uk": "Ukrainian"
+    },
+
+    "options": {
+        "header": "Game Options",
+        "fieldSize": "Field Size",
+        "playWithBot": "Play with Bot",
+        "difficulty": "Difficulty",
+        "startGame": "Start New Game",
+        "small": "Small",
+        "large": "Large",
+        "easy": "Easy",
+        "medium": "Medium",
+        "hard": "Hard"
+    },
+
+    "gameState": {
+        "waitingForGame": "Waiting for game...",
+        "playing": "Playing",
+        "playerOneWon": "Red player wins!",
+        "playerTwoWon": "Yellow player wins!",
+        "youWon": "You win!",
+        "botWon": "AI wins!",
+        "draw": "It's a draw!",
+        "unknownGameState": "Unknown game state"
+    },
+
+    "board": {
+        "title": "Connect Four",
+        "description": "Click 'Start Game' to begin"
+    },
+
+    "logout": "Logout",
+    "tabs": {
+        "scores": "Scores",
+        "comments": "Comments",
+        "rating": "Rating"
+    },
+
+    "scores": {
+        "header": "Game Scores",
+        "game": "Game",
+        "player": "Player",
+        "points": "Points",
+        "date": "Date",
+        "search": "Search..."
+    },
+
+    "comments": {
+        "header": "Game Comments",
+        "comment": "Your Comment:",
+        "placeholder": "Write your comment here...",
+        "submit": "Submit comment"
+    },
+
+    "gameRating": {
+        "rateGame": "Rate the game",
+        "yourRating": "Your rating",
+        "averageRating": "Average rating"
+    }
+}

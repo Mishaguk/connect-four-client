@@ -1,0 +1,72 @@
+{
+    "language": {
+        "en": "Anglický",
+        "sk": "Slovenský",
+        "uk": "Ukrajinský"
+    },
+    "options": {
+        "header": "Možnosti hry",
+        "fieldSize": "Veľkosť pola",
+        "playWithBot": "Hrať s botom",
+        "difficulty": "Zložitosť",
+        "startGame": "Nová hra",
+        "small": "Malá",
+        "medium": "Stredná",
+        "large": "Veľká",
+        "easy": "Ľahká",
+        "hard": "Zložitá",
+        "playWithPlayer": "Hrať online",
+         "multiplayerInputPlaceholder": "Zadajte kod hrý"
+    },
+    "gameState": {
+        "waitingForGame": "Čakáme na hru...",
+        "playing": "Hra sa odohráva",
+        "playerOneWon": "Červený hráč vyhráva!",
+        "playerTwoWon": "Žlty hráč vyhráva!",
+        "youWon": "Si vyhrávaš!",
+        "botWon": "Bot vyhráva!",
+        "draw": "Remíza!",
+        "unknownGameState": "Neznáma hra",
+        "waitingForPlayers": "Čakame na hrača..."
+    },
+    "board": {
+        "title": "Connect Four",
+        "description": "Stlačte 'Nová hra' pre začiatok"
+    },
+    "logout": "Odhlásiť sa",
+    "tabs": {
+        "scores": "Skóre",
+        "comments": "Komentáre",
+        "rating": "Hodnotenie"
+    },
+    "scores": {
+        "header": "Výsledky hry",
+        "game": "Hra",
+        "player": "Hráč",
+        "points": "Body",
+        "date": "Dátum",
+        "search": "Hľadať..."
+    },
+    "comments": {
+        "header": "Hodnotenie hry",
+        "comment": "Váš komentár:",
+        "placeholder": "Napíšte svoj komentár tu...",
+        "submit": "Odoslať komentár"
+    },
+    "gameRating": {
+        "rateGame": "Ohodnotiť hru",
+        "yourRating": "Váš rating",
+        "averageRating": "Priemerný rating"
+    },
+    "auth": {
+        "username": "Meno",
+        "password": "Heslo",
+        "register": "Registrovat sa",
+        "login": "Prihlásiť sa",
+        "registering": "Registrácia...",
+        "loggingIn": "Prihlásenie...",
+        "alreadyHaveAccount": "Už máte účet?",
+        "dontHaveAccount": "Nemáte účet?"
+    },
+       "MultiplayerRoomId" : "Id hry"
+}

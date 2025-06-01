@@ -1,0 +1,156 @@
+.game-scores {
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  width: 100%;
+  padding: 1rem;
+}
+
+.game-scores h2 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--border-radius);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+th {
+  background-color: var(--input-background);
+  color: var(--text-primary);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  color: var(--text-secondary);
+}
+
+tr:hover {
+  background-color: var(--button-hover);
+}
+
+@media (max-width: 768px) {
+  .game-scores {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .game-scores h2 {
+    font-size: 1.1rem;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .game-scores {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] th {
+  background-color: var(--input-background);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] td {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] tr:hover {
+  background-color: var(--button-hover);
+}
+
+.scores-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.refresh-button {
+  margin-right: 16px;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.refresh-button:hover {
+  transform: rotate(180deg);
+  background: none !important;
+}
+
+.refresh-button svg {
+  color: #666;
+}
+
+.scores-search {
+  position: relative;
+  padding: 1rem 0.5rem;
+  display: flex;
+}
+
+.scores-search input {
+  z-index: 1;
+  border: none;
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  transition: scale 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+.scores-search input:focus,
+.scores-search input:hover {
+  outline: none;
+  scale: 1.05;
+}
+
+.search-icon {
+  z-index: 2;
+  position: absolute;
+  left: 11rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  transition: scale 0.3s ease;
+}
+
+[data-theme="dark"] .scores-search input {
+  background-color: var(--input-background);
+  color: var(--text-primary);
+}
