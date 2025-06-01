@@ -28,9 +28,7 @@ A modern web interface for the classic **Connect Four** game with support for **
 
 ## 🔗 Backend Repository
 
-👉 [Connect Four Backend (Spring Boot)](https://github.com/your-username/connectfour-backend)
-
-> Replace the link with your actual backend repo URL
+👉 [Connect Four Backend (Spring Boot)](https://github.com/Mishaguk/connect-four-spring)
 
 ---
 
@@ -39,7 +37,7 @@ A modern web interface for the classic **Connect Four** game with support for **
 To run the project locally:
 
 ```bash
-git clone https://github.com/your-username/connectfour.git
+git clone https://github.com/Mishaguk/connect-four-client
 cd connectfour
 npm install
 npm run dev
